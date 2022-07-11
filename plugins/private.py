@@ -32,15 +32,15 @@ async def start(client, message):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("📢 Kênh", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Nhóm 📦", url=f"https://t.me/thon18"),
             ],
             [
-                InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
-                InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
+                InlineKeyboardButton("🤖 Thông tin", callback_data="about"),
+                InlineKeyboardButton("Đóng 🔒", callback_data="close"),
             ],
             [
-               InlineKeyboardButton("➕ ADD ME TO YOUR GROUP ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
+               InlineKeyboardButton("➕ Thêm vào nhóm ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
             ]
             ]
    reply_markup = InlineKeyboardMarkup(buttons)
@@ -57,8 +57,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("🔙 BACK", callback_data="start"),
-                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton("🔙 Quay lại", callback_data="start"),
+                InlineKeyboardButton ("Hỗ trợ 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -73,8 +73,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="about":
         buttons = [
             [
-                InlineKeyboardButton("🔙 BACK", callback_data="start"),
-                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton("🔙 Quay lại", callback_data="start"),
+                InlineKeyboardButton ("Hỗ trợ 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -92,15 +92,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("📢 Kênh", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Nhóm 📦", url=f"https://t.me/thon18"),
             ],
             [
-                InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
-                InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
+                InlineKeyboardButton("🤖 Thông tin", callback_data="about"),
+                InlineKeyboardButton("Đóng 🔒", callback_data="close"),
             ],
             [
-               InlineKeyboardButton("➕ ADD ME TO YOUR GROUP ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
+               InlineKeyboardButton("➕ Thêm vào nhóm ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
