@@ -2,13 +2,13 @@ from config import ASSISTANT_NAME
 from helpers.bot_utils import BOT_NAME, USERNAME
 
 
-START_TEXT = f"👋🏻 **Hello**, \n\nThis is **{BOT_NAME}** \nI Can Stream Lives, Radios, YouTube Videos & Telegram Audio / Video Files On Voice Chat Of Telegram Groups. Let's Enjoy Cinematic View Of Group Video Player With Your Friends 😉! \n\n**Made With ❤️ By @ImSafone!** 👑"
+START_TEXT = f"👋🏻 **Hello**, \n\nThis is **{BOT_NAME}** \nTôi có thể phát trực tuyến cuộc sống, radio, video YouTube & tệp âm thanh / video Telegram trên trò chuyện thoại của nhóm Telegram.  Hãy cùng bạn bè thưởng thức chế độ xem điện ảnh của trình phát video nhóm với bạn bè của bạn  \n\n**Made With ❤️ By @Shabox!** 👑"
 HELP_TEXT = f"""
 🛠-- **Setting Up Bot**:--
 
-\u2022 Start Voice Chat In Your Group!
-\u2022 Add Me (@{USERNAME}) & My Assistant (@{ASSISTANT_NAME}) To Your Group!
-\u2022 Give Admin To Me (@{USERNAME}) & My Assistant (@{ASSISTANT_NAME}) In Your Group!
+\u2022 Bắt đầu trò chuyện thoại trong nhóm của bạn!!
+\u2022 Thêm (@{USERNAME}) & My Assistant (@{ASSISTANT_NAME}) vào nhóm của bạn!
+\u2022 Cấp quyền admin (@{USERNAME}) & My Assistant (@{ASSISTANT_NAME}) trong nhóm của bạn!
 
 ⚔️-- **Available Commands**:--
 
